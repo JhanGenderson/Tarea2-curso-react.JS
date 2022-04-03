@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  overflow: hidden;
+  background-image: url(../img/marvel-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-header {
+  display: flex;
+  justify-content: center;
+}
+
+.gridDetail,
+.progressBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.message {
+  text-align: center;
+  margin: 10px;
+  font-size: 40px;
+  color: white;
+}
+
+.button-primary {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colorLink {
+  color: white;
+}
+
+.defaultGrid {
+  padding: 15px;
+}
